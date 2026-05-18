@@ -28,5 +28,5 @@ Este documento define a arquitetura de informação do nosso espaço no Confluen
 
 ## 📝 Premissas de Uso
 1. **Organização:** Evite criar páginas soltas na raiz; classifique-as sempre conforme os tipos acima.
-2. **Consistência:** Use os modelos oficiais definidos em `modelos-padrao-confluence.md`.
+2. **Consistência:** Use os modelos oficiais definidos em `templates/confluence-documentation.md`.
 3. **Tom de Voz:** Profissional, técnico, direto e com uso mínimo de emojis.

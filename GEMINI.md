@@ -34,4 +34,4 @@ Sempre crie os arquivos na **raiz do projeto** seguindo esta nomenclatura:
 ### 3. Formatação e Padrões
 *   **Cabeçalho:** Insira a tag `{indice}` e a Tabela de Status (Status inicial: [RASCUNHO]).
 *   **Tabelas:** Sem espaços ou linhas em branco extras entre as barras `|` e as linhas de separação `| :--- |`.
-*   **Estrutura:** Siga rigorosamente a ordem e os nomes das seções em `modelos-padrao-confluence.md`.
+*   **Estrutura:** Siga rigorosamente a ordem e os nomes das seções em `templates/confluence-documentation.md`.
