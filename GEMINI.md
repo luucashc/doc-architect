@@ -27,9 +27,9 @@ Sempre crie os arquivos na **raiz do projeto** seguindo esta nomenclatura:
 *   **Observabilidade:** Mapeie ferramentas de Dashboards (New Relic, Grafana) e Logs (CloudWatch, Kibana).
 *   **Configuração:** No README, referencie o `.env.example` em vez de listar tabelas extensas de variáveis.
 
-### 2. Arquitetura (C4 Model com Tradução)
-*   **Diagramas:** Gere diagramas Mermaid para Nível 1 (Contexto) e Nível 2 (Container).
-*   **Tradução (Visão de Negócio):** Logo abaixo de cada diagrama, inclua obrigatoriamente um parágrafo "Em resumo (Visão de Negócio)" explicando o fluxo de forma simples e analógica para stakeholders não-técnicos.
+### 2. Arquitetura (C4 Model e Visão de Negócio)
+* Sempre que documentar uma arquitetura, gere diagramas para o Nível 1 (Contexto) e Nível 2 (Container).
+* Você DEVE seguir estritamente as regras de sintaxe Mermaid e estrutura de explicação definidas no arquivo `templates/c4-model-guide.md`.
 
 ### 3. Formatação e Padrões
 *   **Cabeçalho:** Insira a tag `{indice}` e a Tabela de Status (Status inicial: [RASCUNHO]).
