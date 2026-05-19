@@ -11,20 +11,11 @@ Este arquivo contém os templates oficiais para documentos no Confluence ou Repo
 ## 2. [SERVIÇO] Documentação Técnica e de Negócio
 - **Status:** (Em Desenvolvimento / Produção / Legado)
 - **Contexto de Negócio:** Problema que resolve e regras principais.
-- **Arquitetura (C4 Model):** Diagramas Nível 1 e 2, seguidos pela "Visão de Negócio".
+- **Arquitetura (C4 Model):** Diagramas Nível 1 e 2, seguidos pela "Visão de Negócio" (Ver `c4-model-guide`).
 - **Dependências:** O que o serviço consome e por quem ele é consumido.
-- **Monitoramento:** 
-    - **Dashboards:** Links para New Relic, Grafana ou CloudWatch Dashboards.
+- **Monitoramento:** - **Dashboards:** Links para New Relic, Grafana ou CloudWatch Dashboards.
     - **Logs:** Links para CloudWatch Logs, Kibana ou Splunk.
 - **Links Úteis:** GitHub (Repositório), AWS Pipeline CI/CD, Recurso AWS (ECS/Lambda/S3), Swagger.
-
-## 3. [RFC] Estudo de Arquitetura e Decisão
-- **Status:** (Em Análise / Aprovado / Rejeitado)
-- **Objetivo:** Problema a ser resolvido.
-- **Alternativas Consideradas:** Caminhos estudados e motivos do descarte.
-- **Solução Proposta:** Diagramas C4, Stack Tecnológica.
-- **Estudo de Viabilidade:** Volumetria (QPS), Escalabilidade e Custo (AWS/Cloud).
-- **Solicitação:** Link/Status da aprovação no canal de Tech Projects.
 
 ## 4. [README] Template Oficial do Repositório (GitHub)
 - **Conteúdo:** Contexto de Negócio (1 parágrafo) e Funcionalidades técnicas.
@@ -33,9 +24,8 @@ Este arquivo contém os templates oficiais para documentos no Confluence ou Repo
 - **Operacional:** Tecnologias/Pré-requisitos, Configuração (.env via .env.example), Comandos de Instalação/Execução e Comandos de Teste.
 - **Conectividade:** Links para Confluence, Monitoramento e Squad responsável.
 
-
 ## Elementos Fixos de Cabeçalho
-Obrigatório no topo dos modelos 1, 2 e 3.
+Obrigatório no topo dos modelos 1 e 2.
 
 {indice}
 
