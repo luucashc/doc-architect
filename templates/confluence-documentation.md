@@ -17,7 +17,7 @@ Este arquivo contém os templates oficiais para documentos no Confluence ou Repo
     - **Logs:** Links para CloudWatch Logs, Kibana ou Splunk.
 - **Links Úteis:** GitHub (Repositório), AWS Pipeline CI/CD, Recurso AWS (ECS/Lambda/S3), Swagger.
 
-## 4. [README] Template Oficial do Repositório (GitHub)
+## 3. [README] Template Oficial do Repositório (GitHub)
 - **Conteúdo:** Contexto de Negócio (1 parágrafo) e Funcionalidades técnicas.
 - **Arquitetura:** Princípios (Clean Arch, SOLID, etc).
 - **Estrutura de Pastas:** Árvore de diretórios detalhada, expandindo as subpastas da camada de aplicação/núcleo (`app/` ou `src/`) com suas responsabilidades técnicas.
@@ -25,7 +25,6 @@ Este arquivo contém os templates oficiais para documentos no Confluence ou Repo
 - **Conectividade:** Links para Confluence, Monitoramento e Squad responsável.
 
 ## Elementos Fixos de Cabeçalho
-Obrigatório no topo dos modelos 1 e 2.
 
 {indice}
 
