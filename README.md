@@ -18,6 +18,8 @@ O projeto baseia-se nos princípios de **Documentation-as-Code** e **Standardiza
 A organização do repositório segue uma lógica de separação entre diretrizes de execução e modelos de saída:
 
 *   `GEMINI.md`: Arquivo central de diretrizes. Contém as instruções inegociáveis de comportamento, formatação e fluxo de resposta do agente.
+*   `docs/`: Documentação de suporte ao usuário.
+    *   `how-to-use.md`: Guia prático de comandos e interação com o agente.
 *   `standards/`: Camada normativa do projeto.
     *   `c4-model-guide.md`: Define a sintaxe obrigatória para diagramas de arquitetura, utilizando a biblioteca nativa C4 do Mermaid.js.
 *   `templates/`: Repositório de modelos estruturais.
@@ -34,10 +36,7 @@ A organização do repositório segue uma lógica de separação entre diretrize
 O agente não requer variáveis de ambiente locais. Sua configuração é integralmente baseada no arquivo `GEMINI.md`. Certifique-se de que o contexto do repositório está carregado no Gemini CLI antes de iniciar as solicitações.
 
 ### Comandos de Exemplo
-Para interagir com o agente, utilize comandos naturais via CLI:
-*   `"Gere um [README] para este projeto."`
-*   `"Crie a documentação de [SERVIÇO] seguindo o template oficial."`
-*   `"Mapeie o fluxo deste repositório e gere um [PROCESSO]."`
+Para detalhes sobre como interagir com o agente e exemplos de comandos, consulte o guia prático em [how-to-use.md](docs/how-to-use.md).
 
 ## Conectividade e Recursos
 
